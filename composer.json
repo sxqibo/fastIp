@@ -1,0 +1,25 @@
+{
+    "name": "sxqibo/fast-ip",
+    "description": "",
+    "type": "library",
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "Sxqibo\\FastIp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yun",
+            "email": "1427596852@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "keywords": [
+
+    ],
+    "minimum-stability": "dev",
+    "license": "MIT"
+}
