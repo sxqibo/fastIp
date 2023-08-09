@@ -41,7 +41,9 @@ $obj = IpCityFactory::getIpCityObject('online');
 - baidu
 - aliyun
 
-如果没有找到传入的类，则默认返回 online 的
+参数也可以为空，为空的情况下，相当于传入 online
+
+如果没有找到传入的类，则默认返回 online 的实例
 
 ### 3、调用方法
 
