@@ -2,6 +2,8 @@
 
 namespace Sxqibo\FastIp;
 
+use Sxqibo\FastIp\IpCity\IpCity;
+
 /**
  * 工厂类
  */
@@ -23,9 +25,9 @@ class IpCityFactory
      *
      * @param string $objectName
      * @param array $config
-     * @return \|mixed|null
+     * @return IpCity
      */
-    public static function getIpCityObject(string $objectName = 'online', array $config = [])
+    public static function getIpCityObject(string $objectName = 'online', array $config = []): IpCity
     {
         // 首字母变大写
         $objectName = ucfirst($objectName);
