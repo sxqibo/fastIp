@@ -1,6 +1,6 @@
 {
     "name": "sxqibo/fast-ip",
-    "description": "",
+    "description": "根据IP获取归属地",
     "type": "library",
     "autoload": {
         "files": [],
@@ -20,7 +20,10 @@
         "ext-json": "*"
     },
     "keywords": [
-
+        "PHP",
+        "根据IP获取归属地",
+        "IP",
+        "归属地"
     ],
     "minimum-stability": "dev",
     "license": "MIT"
