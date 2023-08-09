@@ -62,7 +62,7 @@ final class IpCityForBaidu extends IpCity implements IpCityInterface
                 'city' => $result['data']['city'],
                 'district' => $result['data']['district'],
                 'isp' => $result['data']['isp'],
-                'addr' => ''
+                'addr' => $result['data']['prov'] . $result['data']['city'] . $result['data']['district'] . ' ' . $result['data']['isp']
             ],
             'org' => $result
         ];
