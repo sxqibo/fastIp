@@ -21,7 +21,9 @@ class HttpUtil
      */
     public static function request($query, string $apiUri, string $host, array $config = []): string
     {
-        $headers = [];
+        $headers = [
+            'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'
+        ];
 
         // 后续有其他 http 头可以在这里扩展
         if (count($config) > 0) {
