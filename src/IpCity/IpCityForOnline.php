@@ -56,7 +56,7 @@ final class IpCityForOnline extends IpCity implements IpCityInterface
         return [
             'data' => [
                 'continent' => '',
-                'country' => '',
+                'country' => $addr['proCode'] != '999999' ? '中国' : $addr['addr'],
                 'prov' => $addr['pro'],
                 'city' => $addr['city'],
                 'district' => '',
